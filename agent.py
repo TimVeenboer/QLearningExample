@@ -27,9 +27,6 @@ class Agent:
             # explore, choose a random action
             return np.random.choice([0, 1, 2, 3])
 
-def mse(y):
-    return (y - 92)**2
-
 game = Game()
 agent = Agent()
 episodes = 100
